@@ -1,3 +1,6 @@
-serial_port = "/dev/ttyACM0"
-serial_baud = 115200
+DEVICE_PATH = "/dev/ttyACM0"
+DEVICE_BAUD = 115200
+
+SERVICE_HOST = '127.0.0.1'
+SERVICE_PORT = 40310
 

@@ -13,7 +13,7 @@ def main():
         return 1
 
     db = irdb()
-    dev = irdev(cfg.serial_port, cfg.serial_baud)
+    dev = irdev(cfg.DEVICE_PATH, cfg.DEVICE_BAUD)
 
     cmd = argv[1]
     if cmd == 'read':
